@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+/*Start of Body*/
+body {
+	background-color: #270042;
+	margin: 0;
+	padding: 0;
+}
+/*End of Body*/
+
+/*Start of Navbar*/
+.navbar {
+	font-family: "Libre Baskerville", sans-serif; !important;
+	background: #ff7400;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.navbar .navbar-brand {
+	color: white; !important;
+	font-style: italic; !important;
+}
+
+.navbar .nav-link {
+	font-style: italic; !important;
+	color: white; !important;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar .nav-link:hover {
+	color: darkgray; !important;
+}
+
+/*.navbar-toggler {
+	border-color: white;
+	width: 50px;
+	height: 50px;
+
+}*/
+
+/*End of Navbar*/
+
+/*Start of Landing*/
+#my-name {
+	font-family: "Libre Baskerville", sans-serif !important;
+	font-style: italic !important;
+	font-size: 7vh;
+	color: #c39a1c;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#landing-paragraph {
+	font-family: "Raleway", sans-serif !important;
+	font-size: 15px;
+	text-align: center;
+	color: #c39a1c; !important;
+
+}
+
+/*End of Landing*/
+
+/*Start of Carousel*/
+#newArrival {
+	text-align: center;
+	font-family: "Libre Baskerville", sans-serif; !important;
+	font-style: italic !important;
+	color: #ff7400; !important;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.carousel {
+	display: flex;
+	justify-content: center;
+  	margin: auto;
+  	width: 30%;
+/*	max-width: 30%;*/
+}
+/*End of Carousel*/
+
+/*Start of Best Seller*/
+#bestSeller {
+	font-family: "Libre Baskerville", sans-serif; !important;
+	font-style: italic; !important;
+	color: #ff7400; !important;
+}
+
+.headings {
+	text-shadow: 2px 2px 4px #000000;	
+}
+.card-img-top {
+	width: 370px;
+	height: 230px;
+}
+
+.custom-width {
+	width: 18rem;
+	margin: 0 auto;
+}
+.card {
+	display: inline-block;
+	margin: 13px;
+	padding: 0;
+	min-height: 350px;
+}
+
+.card-title {
+	font-family: "Libre Baskerville", sans-serif; !important;
+	font-style: italic !important;
+}
+
+.card-text {
+	font-family: "Raleway", sans-serif; !important;
+}
+
+.list-group-item {
+	margin-top: auto;
+}
+/*End of Best Seller*/
+
+/*Footer*/
+#footer {
+	text-align: center;
+	background: #ff7400; !important;
+	color: white;
+}
+
+#footer-name {
+	font-family: "Libre Baskerville", sans-serif; !important;
+	font-style: italic; !important;
+	font-size: 14px;
+}
+
+#footer-p {
+	font-family: "Raleway", sans-serif; !important;
+	font-size: 10px;
+}
